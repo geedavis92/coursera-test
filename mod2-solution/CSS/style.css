@@ -7,18 +7,51 @@ h1 {
   margin-bottom: 15px;
 }
 p {
-  border: 1px solid black;
-  background-color: #A52A2A;
-  width: 90%;
-  height: 150px;
+  width: 95%;
+  height: 100%;
+  margin-top: 10px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 10px;
   font-family: Helvetica;
-  color: white;
+  color: black;
 }
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
+}
+.section {
+  position: relative;
+  width: 95%;
+  border: 1px solid black;
+  background-color: #808080;
+  margin: auto;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  padding-top: 0px;
+}
+.section-title {
+  position: relative;
+  width: 30%;
+  height: 30px;
+  border: 1px solid black;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 1.25em;
+  padding-top: 2px;
+  margin-top: -1px;
+  margin-right: -1px;
+  margin-bottom: 2px;
+}
+#chicken{
+  background-color: #ffc0cb;
+}
+#beef{
+  background-color: #e7042b;
+  color: white;
+}
+#sushi{
+  background-color: #f2dea6;
 }
 /********** Large devices only **********/
 @media (min-width: 992px) {
